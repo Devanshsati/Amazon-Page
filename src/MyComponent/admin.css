@@ -1,0 +1,81 @@
+.heding{
+    font-weight: 900;
+    text-align: center;
+    color: #030354;
+    padding: 2%;
+}
+.uploadimg{
+    border: 5px dashed #6c757d;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 0 3% 3%;
+}
+.outline{
+    width: 100%;
+    margin-bottom: 2%;
+    border-style: none;
+    background: lightgray;
+}
+h4{
+    color: #01012e;
+    font-weight: 700;
+}
+.vitalinfo,.variationinfo,.offerinfo,.otherinfo{
+    margin: 0 0 3% 5%;
+}
+.inline{
+    float: left;
+    margin: 0;
+    width: 5%;
+    background: orangered;
+}
+.mainsec{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+}
+.row{
+    margin: 0.5% 0;
+    align-items: center;
+}
+.form-control:active{
+    border: 3px solid orangered;
+}
+.plus{
+    color: orangered;
+    font-weight: 500;
+    margin-left: 38%;
+    text-decoration: underline;
+}
+.bsub{
+    background: orangered;
+    width: 80%;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 4px;
+    margin-bottom: 5%;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: orangered;
+    background-color: orange;
+}
+.variation{
+    background: none;
+    border: none;
+    padding: 0;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+}
+.thumbnail {
+    height: 120px;
+}
+#files{
+    margin-left: 41%;
+}

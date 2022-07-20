@@ -1,0 +1,10 @@
+.amalogo{
+    margin-left: 2%;
+}
+.nav-link{
+    margin: 0 8%;
+    border-bottom: 2px;
+}
+a.nav-link:hover {
+    border-bottom: 1px solid whitesmoke;
+}
